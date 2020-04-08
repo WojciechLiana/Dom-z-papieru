@@ -1,0 +1,11 @@
+.navbar-toggler {
+    border-width: 3px;
+}
+
+.navbar-toggler:hover {
+    background-color: #dc3545;
+}
+
+input:focus {
+    outline: none !important;
+}

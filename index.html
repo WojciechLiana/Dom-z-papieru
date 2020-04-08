@@ -23,6 +23,63 @@
 <body>
 <header>
 
+  <nav class="navbar navbar-dark bg-dark navbar-expand-md">
+    <a href="#" class="navbar-brand"><img src="img/logo.png" alt="logo" width="50"
+                                          class="d-inline-block"></a>
+    <button class="navbar-toggler border-danger" type="button" data-toggle="collapse" data-target="#main-menu"
+            aria-controls="main-menu" aria-expanded="false" aria-label="przełącznik">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="main-menu">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Start</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Bohaterowie</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+             aria-expanded="false" aria-haspopup="true" id="heist">Napady</a>
+
+          <div class="dropdown-menu" aria-labelledby="heist">
+
+            <a class="dropdown-item" href="#">Mennica</a>
+            <a class="dropdown-item" href="#">Bank</a>
+
+          </div>
+
+        </li>
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+           aria-expanded="false" aria-haspopup="true" id="movie">Serial</a>
+
+        <div class="dropdown-menu" aria-labelledby="movie">
+
+          <a class="dropdown-item" href="#">Sezon 1</a>
+          <a class="dropdown-item" href="#">Sezon 2</a>
+          <a class="dropdown-item" href="#">Sezon 3</a>
+          <a class="dropdown-item" href="#">Sezon 4</a>
+
+        </div>
+
+      </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Kontakt</a>
+        </li>
+
+      </ul>
+
+      <form class="form-inline">
+        <input class="form-control mr-1" type="search" placeholder="Wyszukaj" aria-label="Wyszukaj">
+        <button class="btn btn-danger" type="submit">Znajdź</button>
+      </form>
+
+    </div>
+
+  </nav>
+
 </header>
 
 <main>
