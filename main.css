@@ -11,5 +11,10 @@ input:focus {
 }
 
 .text-responsive {
- font-size: calc(100% + 5vw);
+    font-size: calc(100% + 5vw);
 }
+
+.gang-member img {
+    width: 100%;
+}
+
