@@ -9,3 +9,7 @@
 input:focus {
     outline: none !important;
 }
+
+.text-responsive {
+ font-size: calc(100% + 5vw);
+}
