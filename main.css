@@ -15,8 +15,7 @@ input:focus {
 }
 
 .list-group-item:hover {
-    background-color: black !important;
-    color: red !important;
+    background-color: #343a40 !important;
     font-weight: bolder;
     font-size: 20px;
 }
