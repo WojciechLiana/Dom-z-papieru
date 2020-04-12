@@ -30,3 +30,12 @@ a svg:hover {
     font-weight: bolder;
 }
 
+img {
+    transition-duration: 2s;
+}
+
+img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}
