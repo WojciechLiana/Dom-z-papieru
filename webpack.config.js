@@ -11,6 +11,14 @@ module.exports = {
         ignored: /node_modules/
     },
     plugins: [new HtmlWebPackPlugin({template: 'index.html'})],
+    devServer: {
+        stats: "errors-only",
+        overlay: true,
+        contentBase: path.join(__dirname, 'dist'),
+        host: process.env.HOST,
+        port: process.env.PORT,
+        open: true,
+    },
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].bundle.js',
@@ -44,7 +52,7 @@ module.exports = {
             },
             {
                 test: /\.exec\.js$/,
-                use: [ 'script-loader' ]
+                use: ['script-loader']
             }
         ]
     },
