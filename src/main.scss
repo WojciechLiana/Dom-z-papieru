@@ -1,3 +1,41 @@
-div {
-  background-color: #1c7430;
+.navbar-toggler {
+  border-width: 3px;
+}
+
+.navbar-toggler:hover {
+  background-color: #dc3545;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.text-responsive {
+  font-size: calc(100% + 5vw);
+}
+
+.list-group-item:hover {
+  background-color: #343a40 !important;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+a svg:hover {
+  color: white !important;
+}
+
+.dropdown-item:hover {
+  background-color: #6c757d !important;
+  color: white;
+  font-weight: bolder;
+}
+
+img {
+  transition-duration: 2s;
+}
+
+img:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
 }
